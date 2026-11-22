@@ -1,0 +1,64 @@
+#home {
+    text-align: center;
+    background-color:#FFFFFF ;
+    padding: 30px 30px;
+}
+#home-car{
+    display: block;
+    width:85%;
+    max-width: 750px;
+    height: auto;
+    margin:30px auto;
+
+}
+#bar{
+    background-color: #141414;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+#logo{
+    color: #D4A64A;
+}
+#barlinks{
+    display: flex;
+    color: #D4A64A;
+    list-style: none;
+    gap:30px;
+}
+#barlinks a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size:16px ;
+}
+body{
+    margin:0 ;
+}
+#subtitle{
+    color: #B8860B;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+#title{
+    font-size: 48px;
+    color: #141414;
+}
+#contact-btn{
+    background-color: #FFFFFF;
+    color: #141414;
+    text-decoration: none;
+    border: 2px solid #141414;
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+#explore-btn{
+    background-color: #D4A64A;
+    color: #141414;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 10px;   
+    margin: 10px;
+}
