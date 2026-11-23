@@ -1,64 +1,86 @@
-#home {
-    text-align: center;
-    background-color:#FFFFFF ;
-    padding: 30px 30px;
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
 }
-#home-car{
-    display: block;
-    width:85%;
-    max-width: 750px;
-    height: auto;
-    margin:30px auto;
 
-}
-#bar{
-    background-color: #141414;
+/* Navbar */
+#bar {
+    background-color:#141414;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 40px;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px 30px;
 }
-#logo{
+
+#logo {
     color: #D4A64A;
+    font-size: 32px;
 }
-#barlinks{
+
+
+#barlinks {
     display: flex;
-    color: #D4A64A;
-    list-style: none;
-    gap:30px;
+    gap: 30px;
 }
-#barlinks a{
-    color: #FFFFFF;
+
+
+#barlinks a {
+    color: white;
     text-decoration: none;
-    font-size:16px ;
+    font-size: 22px;
 }
-body{
-    margin:0 ;
+
+
+#barlinks a:hover {
+    color: #D4A64A;
 }
-#subtitle{
-    color: #B8860B;
+
+#home {
+        text-align: center;
+        padding: 40px 20px;
+        
+}
+#subtitle {
+    color: #D4A64A;
+    font-size: 30px;
+    letter-spacing:7px;
+}
+#title {
+    color: white;
+    font-size: 36px;
+}
+
+#description {
+    color: #CCCCCC;
+    font-size: 20px;
+}
+
+#home-buttons {
+    display: flex;
+    gap: 20px;
+}
+.btn {
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 8px;
     font-size: 18px;
-    letter-spacing: 3px;
+    border: 2px solid ;
 }
-#title{
-    font-size: 48px;
-    color: #141414;
-}
-#contact-btn{
-    background-color: #FFFFFF;
-    color: #141414;
-    text-decoration: none;
-    border: 2px solid #141414;
-    display: inline-block;
-    padding: 10px 10px;
-    border-radius: 10px;
-}
-#explore-btn{
+#explore-btn {
     background-color: #D4A64A;
     color: #141414;
-    display: inline-block;
-    border-radius: 10px;
-    text-decoration: none;
-    padding: 10px 10px;   
-    margin: 10px;
+}
+
+#contact-btn {
+    background-color: grey;
+    color: black;
+}
+#home-car {
+    width: 45%;
+    height: auto;
+    border-radius: 100px;
+    padding:50px
+}
+#home-buttons {
+        justify-content: center;
 }
