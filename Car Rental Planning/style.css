@@ -23,6 +23,14 @@ body {
     gap: 30px;
 }
 
+#signup{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+#signup:hover{
+ color: #D4A64A;
+}
 
 #barlinks a {
     color: white;
