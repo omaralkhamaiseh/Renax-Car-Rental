@@ -1,53 +1,65 @@
 
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Renax | Sign Up</title>
-    <link rel="stylesheet" href="styleSignup.css">
-</head>
+<html>
+    <head><title>Renax | Sign Up</title>
+        <link rel="stylesheet" href="styleSignup.css">
+    </head>
+
 
 <body>
 
-  
     <div id="bar">
 
         <h2 id="logo">Renax</h2>
 
         <div id="barlinks">
             <a href="index.html">Home</a>
-            <a href="index.html#cars">Cars</a>
-            <a href="AboutUs.html">About Us</a>
-            <a href="Contact.html">Contact</a>
-            <a href="SignUp.html">Sign Up</a>
+            <a href="cars.html">Cars</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
         </div>
 
     </div>
 
     <div id="signup">
 
-        <div id="signup-box">
+        <p id="subtitle">JOIN RENAX</p>
 
-            <h1>Create Account</h1>
+        <h1 id="title">Create Your Account</h1>
 
-            <p>Join Renax and enjoy a premium car rental experience.</p>
-            <!-- Method should be post cuz these info are private-->
-            <form method="get">
+        <div id="signup-form">
 
-                <input type="text" name="FullName" placeholder="Full Name" required>
+            <form>
 
-                <input type="email"name="Email" placeholder="Email Address" required>
+                <label>Full Name</label>
+                <input type="text" name="fullname" required>
 
-                <input type="password" name="Password" placeholder="Password" required>
+                <label>Email</label>
+                <input type="email" name="email" required>
 
-                <button type="submit">Sign Up</button>
+                <label>Phone Number</label>
+                <input type="tel" name="phone">
+                
+
+                <label>Password</label>
+                <input type="password" name="password" required>
+
+                <label>Confirm Password</label>
+                <input type="password" name="confirm" required>
+
+                <input type="submit" value="Create Account">
 
             </form>
+
+            <p id="login-link">
+                Already have an account?
+                <a href="login.html">Login</a>
+            </p>
 
         </div>
 
     </div>
 
 </body>
+
 </html>
