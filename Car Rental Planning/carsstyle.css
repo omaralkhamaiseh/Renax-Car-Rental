@@ -1,0 +1,168 @@
+
+/* General */
+
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar - Same as Home */
+
+#bar {
+    background-color: #141414;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+#logo {
+    color: #D4A64A;
+    font-size: 32px;
+}
+
+#barlinks {
+    display: flex;
+    gap: 30px;
+}
+
+#barlinks a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#barlinks a:hover {
+    color: #D4A64A;
+}
+
+/* Main Layout */
+
+#cars-page {
+    display: flex;
+    gap: 35px;
+    padding: 30px;
+}
+
+/* Left Categories */
+
+#categories {
+    width: 170px;
+    padding: 15px;
+    border-right: 1px solid #333333;
+    align-self: flex-start;
+}
+
+#categories h3 {
+    color: #CCCCCC;
+}
+
+#categories a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px;
+    border-radius: 8px;
+}
+
+#categories a:hover {
+    background-color: #3A2D18;
+    color: #D4A64A;
+}
+
+/* Main Cars Content */
+
+#cars-content {
+    flex: 1;
+    min-width: 0;
+}
+
+#cars-content h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+#description {
+    color: #CCCCCC;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* Car Sections */
+
+#sedans, #suvs, #sports, #luxury {
+    margin-bottom: 35px;
+}
+
+#sedans h2, #suvs h2, #sports h2, #luxury h2 {
+    color: #D4A64A;
+    font-size: 24px;
+}
+
+/* Two Cars Per Row */
+
+.car-row {
+    display: flex;
+    gap: 20px;
+}
+
+/* Horizontal Car Cards */
+
+.car-card {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    gap: 15px;
+    padding: 12px;
+    background-color: #1B1B1B;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.car-card img {
+    width: 48%;
+    height: 155px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Car Details */
+
+.car-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.car-info h3 {
+    font-size: 17px;
+    margin: 0 0 12px;
+}
+
+.car-info p {
+    color: #CCCCCC;
+    font-size: 12px;
+}
+
+.car-info h4 {
+    color: #D4A64A;
+    font-size: 18px;
+    margin: 14px 0;
+}
+
+/* Rent Buttons */
+
+.rent-btn {
+    display: inline-block;
+    background-color: #D4A64A;
+    color: black;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+}
+
+.rent-btn:hover {
+    background-color: #E5B95B;
+}
