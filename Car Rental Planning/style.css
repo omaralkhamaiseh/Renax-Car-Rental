@@ -1,6 +1,7 @@
 body {
     background-color: black;
     font-family: Arial, sans-serif;
+    margin: 0;
 }
 
 
@@ -22,13 +23,21 @@ body {
     display: flex;
     gap: 30px;
 }
-
+#enterbtn {
+    display: flex;
+    gap:25px;
+}
 #signup{
     text-decoration: none;
     color: white;
     font-size: 22px;
 }
-#signup:hover{
+#login{
+     text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+#enterbtn a:hover{
  color: #D4A64A;
 }
 
@@ -92,7 +101,3 @@ body {
 #home-buttons {
         justify-content: center;
 }
-
-
-
-
