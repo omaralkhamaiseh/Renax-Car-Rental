@@ -23,11 +23,6 @@ body {
 #description {
   color: #cccccc;
   font-size: 20px;
-  line-height: 1.6;
-}
-
-#contact-info {
-  margin: 35px auto;
 }
 
 #contact-info h2 {
@@ -38,7 +33,6 @@ body {
 #contact-info p {
   color: #cccccc;
   font-size: 18px;
-  line-height: 1.8;
 }
 
 #contact-form {
@@ -57,17 +51,9 @@ body {
   font-size: 27px;
   margin-bottom: 25px;
 }
-
-#contact-form label {
-  display: block;
-  color: white;
-  font-size: 17px;
-  margin-bottom: 8px;
-}
-
 #contact-form input,
 #contact-form textarea {
-  width: 100%;
+  width: 90%;
   padding: 12px;
   margin-bottom: 20px;
   background-color: black;
@@ -75,20 +61,14 @@ body {
   border: 1px solid grey;
   border-radius: 6px;
   font-size: 16px;
-  box-sizing: border-box;
+  
 }
-
-#contact-form textarea {
-  resize: vertical;
-}
-
 #contact-form input[type="submit"] {
   background-color: #d4a64a;
   color: black;
   font-size: 18px;
   font-weight: bold;
   border: none;
-  cursor: pointer;
 }
 
 #contact-form input[type="submit"]:hover {
@@ -101,8 +81,4 @@ footer {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
-}
-
-footer span {
-  color: #d4a64a;
 }

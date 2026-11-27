@@ -31,14 +31,11 @@
         <a href="#luxury">Luxury Cars</a>
       </div>
 
-      <!-- Cars Content -->
       <div id="cars-content">
         <h1>Our Cars</h1>
         <p id="description">
           Explore our premium fleet and rent the perfect car for your journey.
         </p>
-
-        <!-- Sedan Cars -->
         <div id="sedans">
           <h2>Sedan Cars</h2>
 
@@ -70,8 +67,6 @@
             </div>
           </div>
         </div>
-
-        <!-- SUV Cars -->
         <div id="suvs">
           <h2>SUV Cars</h2>
 
@@ -103,8 +98,6 @@
             </div>
           </div>
         </div>
-
-        <!-- Sports Cars -->
         <div id="sports">
           <h2>Sports Cars</h2>
 
@@ -136,8 +129,6 @@
             </div>
           </div>
         </div>
-
-        <!-- Luxury Cars -->
         <div id="luxury">
           <h2>Luxury Cars</h2>
 
@@ -176,14 +167,14 @@
       <p>Fill in your details to request your car.</p>
 
       <form>
-        Full Name:
-        <input type="text" name="fullname" required />
+        Full Name:    
+        <input type="text" class="rental-btn" name="fullname" required />
 
         Phone Number:
-        <input type="tel" name="phone" required />
+        <input type="text" class="rental-btn" name="phone" required />
 
         Choose Car:
-        <select name="car" required>
+        <select name="car" class="rental-btn" required>
           <option value="">Select a Car</option>
           <option>BMW 530i M Sport</option>
           <option>Mercedes-Benz E 300 AMG Line</option>
@@ -196,10 +187,10 @@
         </select>
 
         Pickup Date:
-        <input type="date" name="pickup" required />
+        <input type="date" class="rental-btn" name="pickup" required />
 
         Return Date:
-        <input type="date" name="return" required />
+        <input type="date" class="rental-btn" name="return" required />
 
         <input type="submit" id="rental-btn" value="Request Rental" />
       </form>

@@ -21,11 +21,6 @@ body {
   color: #cccccc;
   font-size: 20px;
 }
-#home-buttons {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-}
 #explore-btn {
   background-color: #d4a64a;
   color: #141414;
@@ -33,6 +28,9 @@ body {
   padding: 15px 20px;
   border-radius: 8px;
   font-size: 18px;
+}
+#explore-btn:hover{
+  background-color:#d8af5e;
 }
 #home-car {
   width: 45%;

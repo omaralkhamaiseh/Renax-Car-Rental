@@ -38,7 +38,6 @@ body {
 #mission p {
   color: #cccccc;
   font-size: 18px;
-  line-height: 1.8;
 }
 #choose {
   padding: 20px;
@@ -51,17 +50,14 @@ body {
 #choose p {
   color: #cccccc;
   font-size: 18px;
-  line-height: 1.8;
 }
 #contact-btn {
-  display: inline-block;
   background-color: #d4a64a;
   color: black;
   text-decoration: none;
   padding: 15px 30px;
   border-radius: 8px;
   font-size: 18px;
-  margin-top: 20px;
 }
 
 #contact-btn:hover {
