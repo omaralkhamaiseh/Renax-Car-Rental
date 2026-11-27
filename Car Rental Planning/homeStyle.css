@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+#home {
+  text-align: center;
+  padding: 40px 20px;
+}
+#subtitle {
+  color: #d4a64a;
+  font-size: 30px;
+  letter-spacing: 7px;
+}
+#title {
+  color: white;
+  font-size: 36px;
+}
+
+#description {
+  color: #cccccc;
+  font-size: 20px;
+}
+#home-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+#explore-btn {
+  background-color: #d4a64a;
+  color: #141414;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+#home-car {
+  width: 45%;
+  height: auto;
+  border-radius: 100px;
+  padding: 50px;
+}

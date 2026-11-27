@@ -1,0 +1,42 @@
+#bar {
+  background-color: #141414;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+#logo {
+  color: #d4a64a;
+  font-size: 32px;
+}
+
+#barlinks {
+  display: flex;
+  gap: 30px;
+}
+
+#barlinks a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+#barlinks a:hover {
+  color: #d4a64a;
+}
+
+#enterbtn {
+  display: flex;
+  gap: 25px;
+}
+
+#enterbtn a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+#enterbtn a:hover {
+  color: #d4a64a;
+}

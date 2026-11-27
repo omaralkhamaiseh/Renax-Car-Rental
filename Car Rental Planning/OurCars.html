@@ -1,155 +1,208 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Renax | Our Cars</title>
-    <link rel="stylesheet" href="carsstyle.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="carsStyle.css" />
+  </head>
+  <body>
     <div id="bar">
-        <h2 id="logo">Renax</h2>
+      <h2 id="logo">Renax</h2>
 
-        <div id="barlinks">
-            <a href="index.html">Home</a>
-            <a href="OurCars.html">Cars</a>
-            <a href="AboutUs.html">About Us</a>
-            <a href="Contact.html">Contact</a>
-            <!-- <a href="signup.html">Sign Up</a> -->
-        </div>
+      <div id="barlinks">
+        <a href="index.html">Home</a>
+        <a href="OurCars.html">Cars</a>
+        <a href="AboutUs.html">About Us</a>
+        <a href="Contact.html">Contact</a>
+      </div>
+      <div id="enterbtn">
+        <a href="signnup.html">Sign Up</a>
+        <a href="logIn.html">Login</a>
+      </div>
     </div>
 
-    <!-- Cars Page -->
     <div id="cars-page">
+      <div id="categories">
+        <h3>Categories</h3>
+        <a href="#sedans">Sedan Cars</a>
+        <a href="#suvs">SUV Cars</a>
+        <a href="#sports">Sports Cars</a>
+        <a href="#luxury">Luxury Cars</a>
+      </div>
 
-        <!-- Left Bookmarks -->
-        <div id="categories">
-            <h3>Categories</h3>
-            <a href="#sedans">Sedan Cars</a>
-            <a href="#suvs">SUV Cars</a>
-            <a href="#sports">Sports Cars</a>
-            <a href="#luxury">Luxury Cars</a>
+      <!-- Cars Content -->
+      <div id="cars-content">
+        <h1>Our Cars</h1>
+        <p id="description">
+          Explore our premium fleet and rent the perfect car for your journey.
+        </p>
+
+        <!-- Sedan Cars -->
+        <div id="sedans">
+          <h2>Sedan Cars</h2>
+
+          <div class="car-row">
+            <div class="car-card">
+              <img
+                src="image/renax_8_car_images/image/bmw530i.jpg"
+                alt="BMW 530i"
+              />
+              <div class="car-info">
+                <h3>2024 BMW 530i M Sport</h3>
+                <p>2.0L Turbo | Automatic | 5 Seats</p>
+                <h4>$120 / day</h4>
+                <a href="#rental-form" class="rent-btn">Rent Now</a>
+              </div>
+            </div>
+
+            <div class="car-card">
+              <img
+                src="image/renax_8_car_images/image/mercedese300.jpg"
+                alt="Mercedes E 300"
+              />
+              <div class="car-info">
+                <h3>2024 Mercedes-Benz E 300 AMG Line</h3>
+                <p>2.0L Turbo | Automatic | 5 Seats</p>
+                <h4>$140 / day</h4>
+                <a href="#rental-form" class="rent-btn">Rent Now</a>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <!-- Cars Content -->
-        <div id="cars-content">
+        <!-- SUV Cars -->
+        <div id="suvs">
+          <h2>SUV Cars</h2>
 
-            <h1>Our Cars</h1>
-            <p id="description">
-                Explore our premium fleet and rent the perfect car for your journey.
-            </p>
-
-            <!-- Sedan Cars -->
-            <div id="sedans">
-                <h2>Sedan Cars</h2>
-
-                <div class="car-row">
-                    <div class="car-card">
-                        <img src="image/renax_8_car_images/image/bmw530i.jpg" alt="BMW 530i">
-                        <div class="car-info">
-                            <h3>2024 BMW 530i M Sport</h3>
-                            <p>2.0L Turbo | Automatic | 5 Seats</p>
-                            <h4>$120 / day</h4>
-                            <a href="booking.html" class="rent-btn">Rent Now</a>
-                        </div>
-                    </div>
-
-                    <div class="car-card">
-                        <img src="image/renax_8_car_images/image/mercedese300.jpg" alt="Mercedes E 300">
-                        <div class="car-info">
-                            <h3>2024 Mercedes-Benz E 300 AMG Line</h3>
-                            <p>2.0L Turbo | Automatic | 5 Seats</p>
-                            <h4>$140 / day</h4>
-                            <a href="booking.html" class="rent-btn">Rent Now</a>
-                        </div>
-                    </div>
-                </div>
+          <div class="car-row">
+            <div class="car-card">
+              <img
+                src="image/renax_8_car_images/image/bmwx5.jpg"
+                alt="BMW X5"
+              />
+              <div class="car-info">
+                <h3>2024 BMW X5 xDrive40i M Sport</h3>
+                <p>3.0L Turbo | Automatic | 5 Seats</p>
+                <h4>$170 / day</h4>
+                <a href="#rental-form" class="rent-btn">Rent Now</a>
+              </div>
             </div>
 
-            <!-- SUV Cars -->
-            <div id="suvs">
-                <h2>SUV Cars</h2>
-
-                <div class="car-row">
-                    <div class="car-card">
-                        <img src="image/renax_8_car_images/image/bmwx5.jpg" alt="BMW X5">
-                        <div class="car-info">
-                            <h3>2024 BMW X5 xDrive40i M Sport</h3>
-                            <p>3.0L Turbo | Automatic | 5 Seats</p>
-                            <h4>$170 / day</h4>
-                            <a href="booking.html" class="rent-btn">Rent Now</a>
-                        </div>
-                    </div>
-
-                    <div class="car-card">
-                        <img src="image/renax_8_car_images/image/rangerover.jpg" alt="Range Rover Sport">
-                        <div class="car-info">
-                            <h3>2024 Range Rover Sport Dynamic SE</h3>
-                            <p>3.0L Turbo | Automatic | 5 Seats</p>
-                            <h4>$190 / day</h4>
-                            <a href="booking.html" class="rent-btn">Rent Now</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="car-card">
+              <img
+                src="image/renax_8_car_images/image/rangerover.jpg"
+                alt="Range Rover Sport"
+              />
+              <div class="car-info">
+                <h3>2024 Range Rover Sport Dynamic SE</h3>
+                <p>3.0L Turbo | Automatic | 5 Seats</p>
+                <h4>$190 / day</h4>
+                <a href="#rental-form" class="rent-btn">Rent Now</a>
+              </div>
             </div>
-
-            <!-- Sports Cars -->
-            <div id="sports">
-                <h2>Sports Cars</h2>
-
-                <div class="car-row">
-                    <div class="car-card">
-                        <img src="image/renax_8_car_images/image/porsche911.jpg" alt="Porsche 911">
-                        <div class="car-info">
-                            <h3>2024 Porsche 911 Carrera GTS</h3>
-                            <p>3.0L Twin-Turbo | Automatic | 4 Seats</p>
-                            <h4>$350 / day</h4>
-                            <a href="booking.html" class="rent-btn">Rent Now</a>
-                        </div>
-                    </div>
-
-                    <div class="car-card">
-                        <img src="image/renax_8_car_images/image/mustang.jpg" alt="Ford Mustang">
-                        <div class="car-info">
-                            <h3>2024 Ford Mustang GT Premium</h3>
-                            <p>5.0L V8 | Automatic | 4 Seats</p>
-                            <h4>$220 / day</h4>
-                            <a href="booking.html" class="rent-btn">Rent Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Luxury Cars -->
-            <div id="luxury">
-                <h2>Luxury Cars</h2>
-
-                <div class="car-row">
-                    <div class="car-card">
-                        <img src="image/renax_8_car_images/image/mercedessclass.jpg" alt="Mercedes S Class">
-                        <div class="car-info">
-                            <h3>2024 Mercedes-Benz S 580 4MATIC</h3>
-                            <p>4.0L Twin-Turbo V8 | Automatic | 5 Seats</p>
-                            <h4>$400 / day</h4>
-                            <a href="booking.html" class="rent-btn">Rent Now</a>
-                        </div>
-                    </div>
-
-                    <div class="car-card">
-                        <img src="image/renax_8_car_images/image/rollsroyce.jpg" alt="Rolls-Royce Ghost">
-                        <div class="car-info">
-                            <h3>2024 Rolls-Royce Ghost Extended</h3>
-                            <p>6.75L Twin-Turbo V12 | Automatic | 5 Seats</p>
-                            <h4>$900 / day</h4>
-                            <a href="booking.html" class="rent-btn">Rent Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+          </div>
         </div>
+
+        <!-- Sports Cars -->
+        <div id="sports">
+          <h2>Sports Cars</h2>
+
+          <div class="car-row">
+            <div class="car-card">
+              <img
+                src="image/renax_8_car_images/image/porsche911.jpg"
+                alt="Porsche 911"
+              />
+              <div class="car-info">
+                <h3>2024 Porsche 911 Carrera GTS</h3>
+                <p>3.0L Twin-Turbo | Automatic | 4 Seats</p>
+                <h4>$350 / day</h4>
+                <a href="#rental-form" class="rent-btn">Rent Now</a>
+              </div>
+            </div>
+
+            <div class="car-card">
+              <img
+                src="image/renax_8_car_images/image/mustang.jpg"
+                alt="Ford Mustang"
+              />
+              <div class="car-info">
+                <h3>2024 Ford Mustang GT Premium</h3>
+                <p>5.0L V8 | Automatic | 4 Seats</p>
+                <h4>$220 / day</h4>
+                <a href="#rental-form" class="rent-btn">Rent Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Luxury Cars -->
+        <div id="luxury">
+          <h2>Luxury Cars</h2>
+
+          <div class="car-row">
+            <div class="car-card">
+              <img
+                src="image/renax_8_car_images/image/mercedessclass.jpg"
+                alt="Mercedes S Class"
+              />
+              <div class="car-info">
+                <h3>2024 Mercedes-Benz S 580 4MATIC</h3>
+                <p>4.0L Twin-Turbo V8 | Automatic | 5 Seats</p>
+                <h4>$400 / day</h4>
+                <a href="#rental-form" class="rent-btn">Rent Now</a>
+              </div>
+            </div>
+
+            <div class="car-card">
+              <img
+                src="image/renax_8_car_images/image/rollsroyce.jpg"
+                alt="Rolls-Royce Ghost"
+              />
+              <div class="car-info">
+                <h3>2024 Rolls-Royce Ghost Extended</h3>
+                <p>6.75L Twin-Turbo V12 | Automatic | 5 Seats</p>
+                <h4>$900 / day</h4>
+                <a href="#rental-form" class="rent-btn">Rent Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <div id="rental-form">
+      <h2>Request a Car Rental</h2>
+      <p>Fill in your details to request your car.</p>
 
-</body>
+      <form>
+        Full Name:
+        <input type="text" name="fullname" required />
+
+        Phone Number:
+        <input type="tel" name="phone" required />
+
+        Choose Car:
+        <select name="car" required>
+          <option value="">Select a Car</option>
+          <option>BMW 530i M Sport</option>
+          <option>Mercedes-Benz E 300 AMG Line</option>
+          <option>BMW X5 xDrive40i M Sport</option>
+          <option>Range Rover Sport Dynamic SE</option>
+          <option>Porsche 911 Carrera GTS</option>
+          <option>Ford Mustang GT Premium</option>
+          <option>Mercedes-Benz S 580 4MATIC</option>
+          <option>Rolls-Royce Ghost Extended</option>
+        </select>
+
+        Pickup Date:
+        <input type="date" name="pickup" required />
+
+        Return Date:
+        <input type="date" name="return" required />
+
+        <input type="submit" id="rental-btn" value="Request Rental" />
+      </form>
+    </div>
+  </body>
 </html>

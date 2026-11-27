@@ -1,0 +1,69 @@
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: white;
+}
+#about {
+  text-align: center;
+  padding: 50px 30px;
+}
+#subtitle {
+  color: #d4a64a;
+  font-size: 22px;
+  letter-spacing: 5px;
+}
+#title {
+  color: white;
+  font-size: 36px;
+}
+#about-text {
+  color: #cccccc;
+  font-size: 20px;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: auto;
+}
+#mission {
+  background-color: #141414;
+  padding: 30px;
+  margin: 40px auto;
+  width: 80%;
+  border: 1px solid #d4a64a;
+  border-radius: 12px;
+}
+#mission h2 {
+  color: #d4a64a;
+}
+#mission p {
+  color: #cccccc;
+  font-size: 18px;
+  line-height: 1.8;
+}
+#choose {
+  padding: 20px;
+}
+
+#choose h2 {
+  color: #d4a64a;
+  font-size: 28px;
+}
+#choose p {
+  color: #cccccc;
+  font-size: 18px;
+  line-height: 1.8;
+}
+#contact-btn {
+  display: inline-block;
+  background-color: #d4a64a;
+  color: black;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+#contact-btn:hover {
+  background-color: white;
+}

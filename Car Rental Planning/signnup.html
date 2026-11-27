@@ -1,177 +1,127 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Renax | Sign Up</title>
-
+    <link rel="stylesheet" href="common.css" />
     <style>
+      body {
+        background-color: black;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        color: white;
+      }
+      #signup {
+        text-align: center;
+        padding: 40px 20px;
+      }
 
-        body {
-            background-color: black;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            color: white;
-        }
+      #subtitle {
+        color: #d4a64a;
+        font-size: 22px;
+        letter-spacing: 5px;
+      }
 
-       
+      #title {
+        color: white;
+        font-size: 36px;
+      }
 
-        #bar {
-            background-color: #141414;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 30px;
-        }
+      #signup-form {
+        background-color: #141414;
+        width: 400px;
+        max-width: 90%;
+        margin: 30px auto;
+        padding: 30px;
+        border: 1px solid #d4a64a;
+        border-radius: 12px;
+        text-align: left;
+      }
 
-        #logo {
-            color: #D4A64A;
-            font-size: 32px;
-        }
+      #signup-form label {
+        display: block;
+        color: white;
+        margin-bottom: 8px;
+      }
 
-        #barlinks {
-            display: flex;
-            gap: 30px;
-        }
+      #signup-form input {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 20px;
+        background-color: black;
+        color: white;
+        border: 1px solid grey;
+        border-radius: 6px;
+        box-sizing: border-box;
+      }
+      #signup-form input[type="submit"] {
+        background-color: #d4a64a;
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+      }
 
-        #barlinks a {
-            color: white;
-            text-decoration: none;
-            font-size: 20px;
-        }
+      #signup-form input[type="submit"]:hover {
+        background-color: white;
+      }
 
-        #barlinks a:hover {
-            color: #D4A64A;
-        }
+      #login-link {
+        text-align: center;
+        color: #cccccc;
+      }
 
-        
-
-        #signup {
-            text-align: center;
-            padding: 40px 20px;
-        }
-
-        #subtitle {
-            color: #D4A64A;
-            font-size: 22px;
-            letter-spacing: 5px;
-        }
-
-        #title {
-            color: white;
-            font-size: 36px;
-        }
-
-        #signup-form {
-            background-color: #141414;
-            width: 400px;
-            max-width: 90%;
-            margin: 30px auto;
-            padding: 30px;
-            border: 1px solid #D4A64A;
-            border-radius: 12px;
-            text-align: left;
-        }
-
-        #signup-form label {
-            display: block;
-            color: white;
-            margin-bottom: 8px;
-        }
-
-        #signup-form input {
-            width: 100%;
-            padding: 12px;
-            margin-bottom: 20px;
-            background-color: black;
-            color: white;
-            border: 1px solid grey;
-            border-radius: 6px;
-            box-sizing: border-box;
-        }
-
-        #signup-form input[type="submit"] {
-            background-color: #D4A64A;
-            color: black;
-            font-size: 18px;
-            font-weight: bold;
-            cursor: pointer;
-            border: none;
-        }
-
-        #signup-form input[type="submit"]:hover {
-            background-color: white;
-        }
-
-        #login-link {
-            text-align: center;
-            color: #CCCCCC;
-        }
-
-        #login-link a {
-            color: #D4A64A;
-            text-decoration: none;
-        }
-
+      #login-link a {
+        color: #d4a64a;
+        text-decoration: none;
+      }
     </style>
+  </head>
 
-</head>
-
-<body>
-
-    
-
+  <body>
     <div id="bar">
+      <h2 id="logo">Renax</h2>
 
-        <h2 id="logo">Renax</h2>
-
-        <div id="barlinks">
-            <a href="index.html">Home</a>
-            <a href="cars.html">Cars</a>
-            <a href="AboutUs.html">About Us</a>
-            <a href="contact.html">Contact</a>
-        </div>
-
+      <div id="barlinks">
+        <a href="index.html">Home</a>
+        <a href="OurCars.html">Cars</a>
+        <a href="AboutUs.html">About Us</a>
+        <a href="Contact.html">Contact</a>
+      </div>
+      <div id="enterbtn">
+        <a href="signnup.html">Sign Up</a>
+        <a href="logIn.html">Login</a>
+      </div>
     </div>
-
-
-   
 
     <div id="signup">
+      <p id="subtitle">JOIN RENAX</p>
 
-        <p id="subtitle">JOIN RENAX</p>
+      <h1 id="title">Create Your Account</h1>
 
-        <h1 id="title">Create Your Account</h1>
+      <div id="signup-form">
+        <form>
+          Full Name:
+          <input type="text" name="fullname" required />
 
-        <div id="signup-form">
+          Email:
+          <input type="email" name="email" required />
 
-            <form>
+          Phone Number:
+          <input type="tel" name="phone" required />
 
-               Full Name:
-                <input type="text" name="fullname" required>
+          Password:
+          <input type="password" name="password" required />
 
-                Email:
-                <input type="email" name="email" required>
+          <input type="submit" value="Create Account" />
+        </form>
 
-                Phone Number:
-                <input type="tel" name="phone" required>
-
-                Password:
-                <input type="password" name="password" required>
-
-                <input type="submit" value="Create Account">
-
-            </form>
-
-            <p id="login-link">
-                Already have an account?
-                <a href="logIn.html">Login</a>
-            </p>
-
-        </div>
-
+        <p id="login-link">
+          Already have an account?
+          <a href="logIn.html">Login</a>
+        </p>
+      </div>
     </div>
-
-</body>
-
+  </body>
 </html>
